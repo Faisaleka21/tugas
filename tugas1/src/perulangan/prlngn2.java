@@ -12,10 +12,12 @@ public class prlngn2 {
         System.out.println("||    Perulangan Kalimat      ||");
         System.out.println("================================");
         
-        int a;
-        System.out.print("Masukkan Jumlah Perulangan (1-20): ");
-        a=jumlah.nextInt();
-        while(a <= 20){
+        int a=1;
+        int b;
+        System.out.print("Masukkan Jumlah Perulangan : ");
+        b=jumlah.nextInt();
+        
+        while(a <= b){
         System.out.println("Haiiii Teman");
         a++;
         }
